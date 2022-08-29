@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.greentap {
+    width:100vw;
+    background-color: #7ac678;
+    height: 40%;
+    padding-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.register,.loginn,.aboutus {
+    height: 40px;
+    width: 90px;
+    margin: 10px 20px 0px 0px;
+    font-family: Verdana, sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid #7ac678;
+    border-radius: 15px;
+    background-color: #7ac678;
+}
+
+.loginn{
+    color: #7ac678;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    
+}
+
+.aboutus{
+    margin-right: 30px;
+}
+
+.whitespace{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-border{
+    height: 50%;
+    width: 35%;
+    border: 3px solid #7ac678;
+    border-radius: 3px;
+}
+
+form{
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #7ac678;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input::placeholder{
+    color: #7ac678;
+}
+input{
+    border:#dcdcdc 1px solid;
+    border-radius: 7px;
+    height: 40px;
+    width: 300px;
+    font-weight: lighter;
+    font-size: small;
+    margin-top: 10px;
+}
+
+#login-button{
+    height: 40px;
+    width: 120px;
+    margin: 10px 20px 0px 0px;
+    font-family: Verdana, sans-serif;
+    color: white;
+    font-size: 16px;
+    border: 3px solid #7ac678;
+    border-radius: 5px;
+    background-color: #7ac678;
+}
