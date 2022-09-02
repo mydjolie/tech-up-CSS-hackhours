@@ -1,0 +1,88 @@
+@font-face {
+  font-family:sukhumvit set;
+  src:url(./SukhumvitSet/SukhumvitSet-Medium.ttf) 
+}
+
+
+
+* {
+  font-family: "sukhumvit set";
+  padding: 0;
+  margin: 0;
+  color:white;
+  box-sizing: border-box;
+}
+
+html, body {
+ display: flex;
+}
+
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.white-box {
+  height: 330px;
+  width: 650px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+img {
+  border-radius: 8px;
+  z-index: 5;
+}
+
+div.main {
+  position: relative;
+  margin-top: 10px;
+}
+
+
+.absolute-1 {
+  background-color: rgba(0, 0, 0,0.5);
+  text-align: center;
+  font-size: 22px;
+  padding-top:3px ;
+  height: 40px;
+  width: 85px;
+  z-index: 100;
+  position: absolute;
+  top:5%;
+  left:86.5%;
+}
+
+.bottom-text {
+  text-align: left;
+  font-size: 22px;
+  padding-top:3px ;
+  height: 40px;
+  width: 400px;
+  z-index: 100;
+  position: absolute;
+  top: 85%;
+  left:2%;
+}
+
+
+.gradient-black {
+  height: 306px;
+  width: 624px;
+  position: absolute;
+  top: 0%;
+  left : 0%;
+  border-radius: 8px;
+  background-image:linear-gradient(360deg,rgba(0, 0, 0,1),rgba(0, 0, 0,0.1),rgba(0,0,0,0.0),rgba(255, 255, 255, 0));
+}

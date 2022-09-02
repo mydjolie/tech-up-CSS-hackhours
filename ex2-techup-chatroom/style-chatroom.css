@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+div.head {
+    background-color: #808080;
+    width: 100vw;
+    height: 60px;
+    color: white;
+    padding-top: 10px;
+    position: sticky;
+    top:0;
+}
+
+h1 {
+    margin: 0px 0px 10px 30px;
+}
+
+
+.whitebox {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.rightchat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+.r-top {
+    background-color:#01b902;
+    border-radius: 100px;
+    padding: 5px;
+    margin: 50px 30px 10px 0px;
+    height: 80px;
+    width: 350px;
+    position: relative;
+}
+
+p {
+    margin-top: 11.5px;
+    margin-left: 20px;
+    font-size: 32px;
+}
+
+
+
+.r-center {
+    background-color: #d3d3d3;
+    border-radius: 100px;
+    padding: 5px;
+    margin: 10px 30px 10px 0px;
+    height: 80px;
+    width: 350px;
+    position: relative;
+}
+
+
+.r-bottom {
+    background-color: #01b902;
+    border-radius:100px;
+    padding: 5px;
+    margin: 10px 30px 10px 0px;
+    height: 80px;
+    width: 350px;
+    position: relative;
+}
+
+.leftchat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.l-top {
+    background-color: #808080;
+    border-radius: 100px;
+    padding: 5px;
+    margin: 0px 0px 10px 30px;
+    height: 80px;
+    width: 350px;
+}
+
+.l-bottom {
+    background-color:#808080;
+    border-radius: 100px;
+    padding: 5px;
+    margin: 10px 0px 180px 30px;
+    height: 80px;
+    width: 350px;
+}
+
+.x-button {
+    background-color:#aeaeae;
+    width: 41px;
+    height: 41px;
+    border-radius: 60px;
+    color: white;
+    position: absolute;
+    top:-4%;
+    right:-3%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+#xxx {
+    margin: 0px 12px 0px 12px;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ja-ngoy {
+background-color:rgba(0,0,0,0);
+border-top-right-radius: 40%;
+border-right: 13px solid #01b902;
+transform:rotate(80deg);
+height: 30px;
+width: 60px;
+position: absolute;
+bottom: 70px;
+right: -15px;
+}
