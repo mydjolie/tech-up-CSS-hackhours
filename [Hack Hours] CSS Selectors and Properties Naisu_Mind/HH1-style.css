@@ -1,0 +1,26 @@
+
+.username-box{
+    border-radius: 3px;
+    width: 240px;
+    height: 50px;
+}
+
+.email-box{
+    border-radius: 3px;
+    height:50px;
+    width : 240px;
+
+}
+
+.password-box{
+    border-radius: 3px;
+    height: 50px;
+    width: 240px;
+}
+
+.submit-button{
+    height: 36px;
+    width: 120px;
+    border-color: lightgrey;
+    background-color: khaki;
+}
